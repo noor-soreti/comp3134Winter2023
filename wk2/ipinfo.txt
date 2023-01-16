@@ -1,0 +1,24 @@
+1. google.com
+
+IP: 142.250.189.206
+Geo: United States of America
+
+2. apple.com
+
+IP: 17.253.144.10
+Geo: United States of America
+
+3. yarn.ca
+
+IP: 15.197.142.173
+Geo: United States of America
+
+4. clippers.com
+
+IP: 99.83.183.221
+Geo: United States of America
+
+5. rabbit.ca
+
+IP: 104.18.149.91
+Geo: United States of America

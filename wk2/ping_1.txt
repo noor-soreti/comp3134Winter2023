@@ -1,0 +1,14 @@
+PING google.com (173.194.215.101) 56(84) bytes of data.
+64 bytes from vt-in-f101.1e100.net (173.194.215.101): icmp_seq=1 ttl=106 
+time=32.8 ms
+64 bytes from vt-in-f101.1e100.net (173.194.215.101): icmp_seq=2 ttl=106 
+time=32.0 ms
+64 bytes from vt-in-f101.1e100.net (173.194.215.101): icmp_seq=3 ttl=106 
+time=32.1 ms
+64 bytes from vt-in-f101.1e100.net (173.194.215.101): icmp_seq=4 ttl=106 
+time=32.1 ms
+
+--- google.com ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3004ms
+rtt min/avg/max/mdev = 32.037/32.245/32.821/0.332 ms
+

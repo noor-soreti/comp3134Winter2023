@@ -1,0 +1,58 @@
+1. nmap google.com
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-01-16 21:05 UTC
+Nmap scan report for google.com (173.194.217.101)
+Host is up (0.032s latency).
+Other addresses for google.com (not scanned): 173.194.217.102 173.194.217.100 173.194.217.113 173.194.217.139 173.194.217.138 
+2607:f8b0:400b:804::200e
+rDNS record for 173.194.217.101: vw-in-f101.1e100.net
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 4.75 seconds
+
+2. nmap -p 80 google.com
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-01-16 21:06 UTC
+Nmap scan report for google.com (173.194.217.138)
+Host is up (0.032s latency).
+Other addresses for google.com (not scanned): 173.194.217.139 173.194.217.113 173.194.217.100 173.194.217.102 173.194.217.101 
+2607:f8b0:400b:804::200e
+rDNS record for 173.194.217.138: vw-in-f138.1e100.net
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.15 seconds
+
+3. nmap -p 80-9022 google.com
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-01-16 21:07 UTC
+Nmap scan report for google.com (173.194.217.138)
+Host is up (0.032s latency).
+Other addresses for google.com (not scanned): 173.194.217.139 173.194.217.113 173.194.217.100 173.194.217.102 173.194.217.101 
+2607:f8b0:400b:804::200e
+rDNS record for 173.194.217.138: vw-in-f138.1e100.net
+Not shown: 8941 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 22.83 seconds
+
+4. nmap -F google.com
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-01-16 21:07 UTC
+Nmap scan report for google.com (173.194.217.138)
+Host is up (0.032s latency).
+Other addresses for google.com (not scanned): 173.194.217.139 173.194.217.113 173.194.217.100 173.194.217.102 173.194.217.101 
+2607:f8b0:400b:804::200e
+rDNS record for 173.194.217.138: vw-in-f138.1e100.net
+Not shown: 98 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 2.23 seconds
