@@ -1,0 +1,68 @@
+♥ [comp3134-Winter2023]noor-soreti ♥ tcpdump -i eth0
+
+17552, win 501, options [nop,nop,TS val 2472539226 ecr 1815651074], length 
+0
+22:43:09.826922 IP 198.211.111.194.31451 > noor-soreti.ssh: Flags [.], ack 
+2619056, win 501, options [nop,nop,TS val 2472539227 ecr 1815651074], 
+length 0
+22:43:09.827615 IP 198.211.111.194.31451 > noor-soreti.ssh: Flags [.], ack 
+2620560, win 501, options [nop,nop,TS val 2472539227 ecr 1815651075], 
+length 0
+22:43:09.828008 IP 198.211.111.194.31451 > noor-soreti.ssh: Flags [.], ack 
+2622112, win 501, options [nop,nop,TS val 2472539228 ecr 1815651075], 
+length 0
+22:43:09.828778 IP 198.211.111.194.31451 > noor-soreti.ssh: Flags [.], ack 
+2623616, win 501, options [nop,nop,TS val 2472539229 ecr 1815651076], 
+length 0
+22:43:09.829380 IP 198.211.111.194.31451 > noor-soreti.ssh: Flags [.], ack 
+2625216, win 501, options [nop,nop,TS val 2472539229 ecr 1815651076], 
+length 0
+22:43:09.829965 IP 198.211.111.194.31451 > noor-soreti.ssh: Flags [.], ack 
+2626720, win 501, options [nop,nop,TS val 2472539230 ecr 1815651077], 
+length 0
+22:43:09.830415 IP 198.211.111.194.31451 > noor-soreti.ssh: Flags [.], ack 
+2628288, win 501, options [nop,nop,TS val 2472539230 ecr 1815651078], 
+length 0
+22:43:09.830929 IP 198.211.111.194.31451 > noor-soreti.ssh: Flags [.], ack 
+2629856, win 501, options [nop,nop,TS val 2472539231 ecr 1815651078], 
+length 0
+22:43:09.831552 IP 198.211.111.194.31451 > noor-soreti.ssh: Flags [.], ack 
+2631424, win 501, options [nop,nop,TS val 2472539232 ecr 1815651079], 
+length 0
+22:43:09.831909 IP 198.211.111.194.31451 > noor-soreti.ssh: Flags [.], ack 
+2632992, win 501, options [nop,nop,TS val 2472539232 ecr 1815651079], 
+length 0
+22:43:09.832414 IP 198.211.111.194.31451 > noor-soreti.ssh: Flags [.], ack 
+2634560, win 501, options [nop,nop,TS val 2472539232 ecr 1815651080], 
+length 0
+22:43:09.833159 IP 198.211.111.194.31451 > noor-soreti.ssh: Flags [.], ack 
+2636128, win 501, options [nop,nop,TS val 2472539233 ecr 1815651080], 
+length 0
+22:43:09.833689 IP 198.211.111.194.31451 > noor-soreti.ssh: Flags [.], ack 
+2637696, win 501, options [nop,nop,TS val 2472539234 ecr 1815651081], 
+length 0
+22:43:09.834348 IP 198.211.111.194.31451 > noor-soreti.ssh: Flags [.], ack 
+2639264, win 501, options [nop,nop,TS val 2472539234 ecr 1815651082], 
+length 0
+22:43:09.834858 IP 198.211.111.194.31451 > noor-soreti.ssh: Flags [.], ack 
+2640832, win 501, options [nop,nop,TS val 2472539235 ecr 1815651082], 
+length 0
+22:43:09.835625 IP 198.211.111.194.31451 > noor-soreti.ssh: Flags [.], ack 
+2642400, win 501, options [nop,nop,TS val 2472539235 ecr 1815651083], 
+length 0
+22:43:09.837570 IP 198.211.111.194.31451 > noor-soreti.ssh: Flags [.], ack 
+2643904, win 501, options [nop,nop,TS val 2472539237 ecr 1815651083], 
+length 0
+22:43:09.837828 IP 198.211.111.194.31451 > noor-soreti.ssh: Flags [.], ack 
+2645568, win 501, options [nop,nop,TS val 2472539238 ecr 1815651085], 
+length 0
+22:43:09.838177 IP 198.211.111.194.31451 > noor-soreti.ssh: Flags [.], ack 
+2647072, win 501, options [nop,nop,TS val 2472539238 ecr 1815651086], 
+length 0
+22:43:09.838722 IP 198.211.111.194.31451 > noor-soreti.ssh: Flags [.], ack 
+2648576, win 501, options [nop,nop,TS val 2472539239 ecr 1815651086], 
+length 0
+22:43:09.839217 IP 198.211.111.194.31451 > noor-soreti.ssh: Flags [.], ack 
+2650080, win 501, options [nop,nop,TS val 2472539239 ecr 1815651087], 
+length 0
+22:43:09.839711 IP 198.211.111.194.31451 > noor^C

@@ -1,0 +1,20 @@
+♥ [comp3134-Winter2023]noor-soreti ♥ tcpdump -c 5 -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+22:44:29.821317 IP noor-soreti.ssh > 198.211.111.194.31451: Flags [P.], 
+seq 556508890:556508954, ack 3987763850, win 501, options [nop,nop,TS val 
+1815731090 ecr 2472619214], length 64
+22:44:29.822669 IP noor-soreti.ssh > 198.211.111.194.31451: Flags [P.], 
+seq 64:192, ack 1, win 501, options [nop,nop,TS val 1815731091 ecr 
+2472619214], length 128
+22:44:29.822800 IP noor-soreti.ssh > 198.211.111.194.31451: Flags [P.], 
+seq 192:384, ack 1, win 501, options [nop,nop,TS val 1815731091 ecr 
+2472619214], length 192
+22:44:29.823037 IP noor-soreti.ssh > 198.211.111.194.31451: Flags [P.], 
+seq 384:448, ack 1, win 501, options [nop,nop,TS val 1815731092 ecr 
+2472619214], length 64
+22:44:29.823746 IP noor-soreti.33373 > 67.207.67.2.domain: 44601+ [1au] 
+PTR? 194.111.211.198.in-addr.arpa. (57)
+5 packets captured
+45 packets received by filter
+9 packets dropped by kernel

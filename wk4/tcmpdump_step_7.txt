@@ -1,0 +1,224 @@
+♥ [comp3134-Winter2023]noor-soreti ♥ tcpdump -r 0001.pcap
+
+reading from file 0001.pcap, link-type EN10MB (Ethernet)
+22:49:43.436413 IP noor-soreti.ssh > 162.243.188.66.3359: Flags [P.], seq 
+571901277:571901341, ack 3163685485, win 502, options [nop,nop,TS val 
+4177866877 ecr 2203873867], length 64
+22:49:43.436925 IP noor-soreti.ssh > 162.243.188.66.3359: Flags [P.], seq 
+64:128, ack 1, win 502, options [nop,nop,TS val 4177866877 ecr 
+2203873867], length 64
+22:49:43.436963 IP noor-soreti.ssh > 162.243.188.66.3359: Flags [P.], seq 
+128:256, ack 1, win 502, options [nop,nop,TS val 4177866878 ecr 
+2203873867], length 128
+22:49:43.437008 IP noor-soreti.ssh > 162.243.188.66.3359: Flags [P.], seq 
+256:320, ack 1, win 502, options [nop,nop,TS val 4177866878 ecr 
+2203873867], length 64
+22:49:43.456921 IP 162.243.188.66.3359 > noor-soreti.ssh: Flags [.], ack 
+64, win 501, options [nop,nop,TS val 2203873892 ecr 4177866877], length 0
+22:49:43.457309 IP 162.243.188.66.3359 > noor-soreti.ssh: Flags [.], ack 
+128, win 501, options [nop,nop,TS val 2203873892 ecr 4177866877], length 0
+22:49:43.457364 IP 162.243.188.66.3359 > noor-soreti.ssh: Flags [.], ack 
+256, win 501, options [nop,nop,TS val 2203873892 ecr 4177866878], length 0
+22:49:43.457444 IP 162.243.188.66.3359 > noor-soreti.ssh: Flags [.], ack 
+320, win 501, options [nop,nop,TS val 2203873892 ecr 4177866878], length 0
+22:49:44.111551 IP noor-soreti.ssh > 61.177.173.52.52789: Flags [P.], seq 
+1286992153:1286992233, ack 2968984595, win 503, options [nop,nop,TS val 
+2181226534 ecr 8714720], length 80
+22:49:44.319048 IP 61.177.173.52.52789 > noor-soreti.ssh: Flags [P.], seq 
+1:113, ack 80, win 262, options [nop,nop,TS val 8715564 ecr 2181226534], 
+length 112
+22:49:44.319088 IP noor-soreti.ssh > 61.177.173.52.52789: Flags [.], ack 
+113, win 503, options [nop,nop,TS val 2181226742 ecr 8715564], length 0
+22:49:47.484609 IP noor-soreti.ssh > 61.177.173.52.52789: Flags [P.], seq 
+80:160, ack 113, win 503, options [nop,nop,TS val 2181229907 ecr 8715564], 
+length 80
+22:49:47.692263 IP 61.177.173.52.52789 > noor-soreti.ssh: Flags [P.], seq 
+113:177, ack 160, win 262, options [nop,nop,TS val 8716407 ecr 
+2181229907], length 64
+22:49:47.692263 IP 61.177.173.52.52789 > noor-soreti.ssh: Flags [F.], seq 
+177, ack 160, win 262, options [nop,nop,TS val 8716407 ecr 2181229907], 
+length 0
+22:49:47.692360 IP noor-soreti.ssh > 61.177.173.52.52789: Flags [.], ack 
+177, win 503, options [nop,nop,TS val 2181230115 ecr 8716407], length 0
+22:49:47.692411 IP 61.177.173.52.62288 > noor-soreti.ssh: Flags [S], seq 
+3069125868, win 29200, options [mss 1460,sackOK,TS val 8716407 ecr 
+0,nop,wscale 7], length 0
+22:49:47.692440 IP noor-soreti.ssh > 61.177.173.52.62288: Flags [S.], seq 
+1290109442, ack 3069125869, win 65160, options [mss 1460,sackOK,TS val 
+2181230115 ecr 8716407,nop,wscale 7], length 0
+22:49:47.693608 IP noor-soreti.ssh > 61.177.173.52.52789: Flags [F.], seq 
+160, ack 178, win 503, options [nop,nop,TS val 2181230116 ecr 8716407], 
+length 0
+22:49:47.899499 IP 61.177.173.52.62288 > noor-soreti.ssh: Flags [.], ack 
+1, win 229, options [nop,nop,TS val 8716459 ecr 2181230115], length 0
+22:49:47.899556 IP 61.177.173.52.62288 > noor-soreti.ssh: Flags [P.], seq 
+1:16, ack 1, win 229, options [nop,nop,TS val 8716459 ecr 2181230115], 
+length 15
+22:49:47.899568 IP noor-soreti.ssh > 61.177.173.52.62288: Flags [.], ack 
+16, win 509, options [nop,nop,TS val 2181230322 ecr 8716459], length 0
+22:49:47.901011 IP 61.177.173.52.52789 > noor-soreti.ssh: Flags [.], ack 
+161, win 262, options [nop,nop,TS val 8716459 ecr 2181230116], length 0
+22:49:47.907982 IP noor-soreti.ssh > 61.177.173.52.62288: Flags [P.], seq 
+1:42, ack 16, win 509, options [nop,nop,TS val 2181230331 ecr 8716459], 
+length 41
+22:49:48.114984 IP 61.177.173.52.62288 > noor-soreti.ssh: Flags [.], ack 
+42, win 229, options [nop,nop,TS val 8716513 ecr 2181230331], length 0
+22:49:48.115023 IP noor-soreti.ssh > 61.177.173.52.62288: Flags [P.], seq 
+42:1098, ack 16, win 509, options [nop,nop,TS val 2181230538 ecr 8716513], 
+length 1056
+22:49:48.115146 IP 61.177.173.52.62288 > noor-soreti.ssh: Flags [P.], seq 
+16:872, ack 42, win 229, options [nop,nop,TS val 8716513 ecr 2181230331], 
+length 856
+22:49:48.115161 IP noor-soreti.ssh > 61.177.173.52.62288: Flags [.], ack 
+872, win 503, options [nop,nop,TS val 2181230538 ecr 8716513], length 0
+22:49:48.322384 IP 61.177.173.52.62288 > noor-soreti.ssh: Flags [P.], seq 
+872:952, ack 1098, win 245, options [nop,nop,TS val 8716564 ecr 
+2181230538], length 80
+22:49:48.322432 IP noor-soreti.ssh > 61.177.173.52.62288: Flags [.], ack 
+952, win 503, options [nop,nop,TS val 2181230745 ecr 8716564], length 0
+22:49:48.323181 IP noor-soreti.ssh > 61.177.173.52.62288: Flags [P.], seq 
+1098:1410, ack 952, win 503, options [nop,nop,TS val 2181230746 ecr 
+8716564], length 312
+22:49:48.531325 IP 61.177.173.52.62288 > noor-soreti.ssh: Flags [P.], seq 
+952:968, ack 1410, win 262, options [nop,nop,TS val 8716617 ecr 
+2181230746], length 16
+22:49:48.531372 IP noor-soreti.ssh > 61.177.173.52.62288: Flags [.], ack 
+968, win 503, options [nop,nop,TS val 2181230954 ecr 8716617], length 0
+22:49:48.738446 IP 61.177.173.52.62288 > noor-soreti.ssh: Flags [P.], seq 
+968:1032, ack 1410, win 262, options [nop,nop,TS val 8716668 ecr 
+2181230954], length 64
+22:49:48.738479 IP noor-soreti.ssh > 61.177.173.52.62288: Flags [.], ack 
+1032, win 503, options [nop,nop,TS val 2181231161 ecr 8716668], length 0
+22:49:48.738564 IP noor-soreti.ssh > 61.177.173.52.62288: Flags [P.], seq 
+1410:1474, ack 1032, win 503, options [nop,nop,TS val 2181231161 ecr 
+8716668], length 64
+22:49:48.945654 IP 61.177.173.52.62288 > noor-soreti.ssh: Flags [P.], seq 
+1032:1112, ack 1474, win 262, options [nop,nop,TS val 8716720 ecr 
+2181231161], length 80
+22:49:48.945692 IP noor-soreti.ssh > 61.177.173.52.62288: Flags [.], ack 
+1112, win 503, options [nop,nop,TS val 2181231368 ecr 8716720], length 0
+22:49:48.952099 IP noor-soreti.ssh > 61.177.173.52.62288: Flags [P.], seq 
+1474:1554, ack 1112, win 503, options [nop,nop,TS val 2181231375 ecr 
+8716720], length 80
+22:49:49.159150 IP 61.177.173.52.62288 > noor-soreti.ssh: Flags [P.], seq 
+1112:1208, ack 1554, win 262, options [nop,nop,TS val 8716774 ecr 
+2181231375], length 96
+22:49:49.199284 IP noor-soreti.ssh > 61.177.173.52.62288: Flags [.], ack 
+1208, win 503, options [nop,nop,TS val 2181231622 ecr 8716774], length 0
+22:49:50.742070 IP noor-soreti.ssh > 61.177.173.52.62288: Flags [P.], seq 
+1554:1634, ack 1208, win 503, options [nop,nop,TS val 2181233165 ecr 
+8716774], length 80
+22:49:50.949396 IP 61.177.173.52.62288 > noor-soreti.ssh: Flags [P.], seq 
+1208:1304, ack 1634, win 262, options [nop,nop,TS val 8717221 ecr 
+2181233165], length 96
+22:49:50.949435 IP noor-soreti > 61.177.173.52: ICMP noor-soreti tcp port 
+ssh unreachable, length 156
+22:49:51.227284 IP noor-soreti.ssh > 61.177.173.52.62288: Flags [P.], seq 
+1554:1634, ack 1208, win 503, options [nop,nop,TS val 2181233650 ecr 
+8716774], length 80
+22:49:51.402945 IP 61.177.173.52.62288 > noor-soreti.ssh: Flags [P.], seq 
+1208:1304, ack 1634, win 262, options [nop,nop,TS val 8717335 ecr 
+2181233165], length 96
+22:49:51.402994 IP noor-soreti > 61.177.173.52: ICMP noor-soreti tcp port 
+ssh unreachable, length 156
+22:49:51.434626 IP 61.177.173.52.62288 > noor-soreti.ssh: Flags [.], ack 
+1634, win 262, options [nop,nop,TS val 8717342 ecr 2181233650,nop,nop,sack 
+1 {1554:1634}], length 0
+22:49:51.434666 IP noor-soreti > 61.177.173.52: ICMP noor-soreti tcp port 
+ssh unreachable, length 72
+22:49:51.739298 IP noor-soreti.ssh > 61.177.173.52.62288: Flags [P.], seq 
+1554:1634, ack 1208, win 503, options [nop,nop,TS val 2181234162 ecr 
+8716774], length 80
+22:49:51.863122 IP 61.177.173.52.62288 > noor-soreti.ssh: Flags [P.], seq 
+1208:1304, ack 1634, win 262, options [nop,nop,TS val 8717450 ecr 
+2181233650], length 96
+22:49:51.863162 IP noor-soreti > 61.177.173.52: ICMP noor-soreti tcp port 
+ssh unreachable, length 156
+22:49:51.946349 IP 61.177.173.52.62288 > noor-soreti.ssh: Flags [.], ack 
+1634, win 262, options [nop,nop,TS val 8717470 ecr 2181234162,nop,nop,sack 
+1 {1554:1634}], length 0
+22:49:51.946387 IP noor-soreti > 61.177.173.52: ICMP noor-soreti tcp port 
+ssh unreachable, length 72
+22:49:52.707302 IP scanner-10.ch1.censys-scanner.com.52725 > 
+noor-soreti.9116: Flags [S], seq 3001496236, win 1024, options [mss 1460], 
+length 0
+22:49:52.731271 IP noor-soreti.ssh > 61.177.173.52.62288: Flags [P.], seq 
+1554:1634, ack 1208, win 503, options [nop,nop,TS val 2181235154 ecr 
+8716774], length 80
+22:49:52.775031 IP 61.177.173.52.62288 > noor-soreti.ssh: Flags [P.], seq 
+1208:1304, ack 1634, win 262, options [nop,nop,TS val 8717678 ecr 
+2181234162], length 96
+22:49:52.775072 IP noor-soreti > 61.177.173.52: ICMP noor-soreti tcp port 
+ssh unreachable, length 156
+22:49:52.938378 IP 61.177.173.52.62288 > noor-soreti.ssh: Flags [.], ack 
+1634, win 262, options [nop,nop,TS val 8717718 ecr 2181235154,nop,nop,sack 
+1 {1554:1634}], length 0
+22:49:52.938419 IP noor-soreti > 61.177.173.52: ICMP noor-soreti tcp port 
+ssh unreachable, length 72
+22:49:54.603103 IP 61.177.173.52.62288 > noor-soreti.ssh: Flags [P.], seq 
+1208:1304, ack 1634, win 262, options [nop,nop,TS val 8718135 ecr 
+2181235154], length 96
+22:49:54.603146 IP noor-soreti > 61.177.173.52: ICMP noor-soreti tcp port 
+ssh unreachable, length 156
+22:49:54.683302 IP noor-soreti.ssh > 61.177.173.52.62288: Flags [P.], seq 
+1554:1634, ack 1208, win 503, options [nop,nop,TS val 2181237106 ecr 
+8716774], length 80
+22:49:54.890229 IP 61.177.173.52.62288 > noor-soreti.ssh: Flags [.], ack 
+1634, win 262, options [nop,nop,TS val 8718206 ecr 2181237106,nop,nop,sack 
+1 {1554:1634}], length 0
+22:49:54.890271 IP noor-soreti > 61.177.173.52: ICMP noor-soreti tcp port 
+ssh unreachable, length 72
+22:49:55.882934 IP 159.89.157.75.50881 > noor-soreti.22144: Flags [S], seq 
+1809034713, win 65535, length 0
+22:49:58.255001 IP 61.177.173.52.62288 > noor-soreti.ssh: Flags [P.], seq 
+1208:1304, ack 1634, win 262, options [nop,nop,TS val 8719048 ecr 
+2181237106], length 96
+22:49:58.255050 IP noor-soreti > 61.177.173.52: ICMP noor-soreti tcp port 
+ssh unreachable, length 156
+22:49:58.619278 IP noor-soreti.ssh > 61.177.173.52.62288: Flags [P.], seq 
+1554:1634, ack 1208, win 503, options [nop,nop,TS val 2181241042 ecr 
+8716774], length 80
+22:49:58.664760 IP 162.243.188.66.3359 > noor-soreti.ssh: Flags [.], ack 
+320, win 501, options [nop,nop,TS val 2203889100 ecr 4177866878], length 0
+22:49:58.664795 IP noor-soreti.ssh > 162.243.188.66.3359: Flags [.], ack 
+1, win 502, options [nop,nop,TS val 4177882105 ecr 2203873892], length 0
+22:49:58.826298 IP 61.177.173.52.62288 > noor-soreti.ssh: Flags [.], ack 
+1634, win 262, options [nop,nop,TS val 8719190 ecr 2181241042,nop,nop,sack 
+1 {1554:1634}], length 0
+22:49:58.826339 IP noor-soreti > 61.177.173.52: ICMP noor-soreti tcp port 
+ssh unreachable, length 72
+22:50:00.958387 IP 61.177.173.52.62288 > noor-soreti.ssh: Flags [FP.], seq 
+1304:1368, ack 1634, win 262, options [nop,nop,TS val 8719723 ecr 
+2181241042], length 64
+22:50:00.958427 IP noor-soreti > 61.177.173.52: ICMP noor-soreti tcp port 
+ssh unreachable, length 124
+22:50:05.983884 IP 61.177.173.52.24799 > noor-soreti.ssh: Flags [S], seq 
+2865881251, win 29200, options [mss 1460,sackOK,TS val 8720975 ecr 
+0,nop,wscale 7], length 0
+22:50:05.983924 IP noor-soreti > 61.177.173.52: ICMP noor-soreti tcp port 
+ssh unreachable, length 68
+22:50:06.196449 IP 61.177.173.52.26475 > noor-soreti.ssh: Flags [S], seq 
+3322459163, win 29200, options [mss 1460,sackOK,TS val 8721032 ecr 
+0,nop,wscale 7], length 0
+22:50:06.196493 IP noor-soreti > 61.177.173.52: ICMP noor-soreti tcp port 
+ssh unreachable, length 68
+22:50:06.555271 IP noor-soreti.ssh > 61.177.173.52.62288: Flags [P.], seq 
+1554:1634, ack 1208, win 503, options [nop,nop,TS val 2181248978 ecr 
+8716774], length 80
+22:50:06.762299 IP 61.177.173.52.62288 > noor-soreti.ssh: Flags [R], seq 
+3069127076, win 0, length 0
+22:50:06.762342 IP noor-soreti > 61.177.173.52: ICMP noor-soreti tcp port 
+ssh unreachable, length 48
+22:50:13.769024 IP 162.243.188.66.3359 > noor-soreti.ssh: Flags [.], ack 
+320, win 501, options [nop,nop,TS val 2203904204 ecr 4177882105], length 0
+22:50:13.769058 IP noor-soreti.ssh > 162.243.188.66.3359: Flags [.], ack 
+1, win 502, options [nop,nop,TS val 4177897210 ecr 2203873892], length 0
+22:50:18.298594 IP 198.235.24.8.51336 > noor-soreti.nut: Flags [S], seq 
+452572936, win 1024, options [mss 1460], length 0
+22:50:22.171291 IP noor-soreti.ssh > 61.177.173.52.62288: Flags [P.], seq 
+1554:1634, ack 1208, win 503, options [nop,nop,TS val 2181264594 ecr 
+8716774], length 80
+22:50:22.379100 IP 61.177.173.52.62288 > noor-soreti.ssh: Flags [R], seq 
+3069127076, win 0, length 0
+22:50:22.379143 IP noor-soreti > 61.177.173.52: ICMP noor-soreti tcp port 
+ssh unreachable, length 48

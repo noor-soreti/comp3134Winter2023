@@ -1,0 +1,37 @@
+♥ [comp3134-Winter2023]noor-soreti ♥ tcpdump -i eth0 tcp
+
+320, ack 1, win 502, options [nop,nop,TS val 1816253212 ecr 4134311356], 
+length 224
+22:53:11.943986 IP noor-soreti.ssh > 198.211.111.194.3661: Flags [P.], seq 
+744320:744544, ack 1, win 502, options [nop,nop,TS val 1816253213 ecr 
+4134311356], length 224
+22:53:11.944056 IP noor-soreti.ssh > 198.211.111.194.3661: Flags [P.], seq 
+744544:744768, ack 1, win 502, options [nop,nop,TS val 1816253213 ecr 
+4134311356], length 224
+22:53:11.944126 IP noor-soreti.ssh > 198.211.111.194.3661: Flags [P.], seq 
+744768:744992, ack 1, win 502, options [nop,nop,TS val 1816253213 ecr 
+4134311356], length 224
+22:53:11.944180 IP noor-soreti.ssh > 198.211.111.194.3661: Flags [P.], seq 
+744992:745280, ack 1, win 502, options [nop,nop,TS val 1816253213 ecr 
+4134311356], length 288
+22:53:11.944255 IP noor-soreti.ssh > 198.211.111.194.3661: Flags [P.], seq 
+745280:745504, ack 1, win 502, options [nop,nop,TS val 1816253213 ecr 
+4134311356], length 224
+22:53:11.944337 IP noor-soreti.ssh > 198.211.111.194.3661: Flags [P.], seq 
+745504:745728, ack 1, win 502, options [nop,nop,TS val 1816253213 ecr 
+4134311356], length 224
+22:53:11.944449 IP noor-soreti.ssh > 198.211.111.194.3661: Flags [P.], seq 
+745728:745952, ack 1, win 502, options [nop,nop,TS val 1816253213 ecr 
+4134311356], length 224
+22:53:11.944533 IP noor-soreti.ssh > 198.211.111.194.3661: Flags [P.], seq 
+745952:746176, ack 1, win 502, options [nop,nop,TS val 1816253213 ecr 
+4134311356], length 224
+22:53:11.944604 IP noor-soreti.ssh > 198.211.111.194.3661: Flags [P.], seq 
+746176:746400, ack 1, win 502, options [nop,nop,TS val 1816253213 ecr 
+4134311356], length 224
+22:53:11.953208 IP 198.211.111.194.3661 > noor-soreti.ssh: Flags [P.], seq 
+1:33, ack 718576, win 270, options [nop,nop,TS val 4134311372 ecr 
+1816253079], length 32
+^C
+3166 packets captured
+3169 packets received by filter

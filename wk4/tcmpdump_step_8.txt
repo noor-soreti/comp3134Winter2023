@@ -1,0 +1,20 @@
+♥ [comp3134-Winter2023]noor-soreti ♥ tcpdump -n -i eth0
+
+22:52:22.019971 IP 146.190.240.133.22 > 198.211.111.194.3661: Flags [P.], 
+seq 1039520:1039808, ack 1, win 502, options [nop,nop,TS val 1816203289 
+ecr 4134261435], length 288
+22:52:22.020053 IP 146.190.240.133.22 > 198.211.111.194.3661: Flags [P.], 
+seq 1039808:1040048, ack 1, win 502, options [nop,nop,TS val 1816203289 
+ecr 4134261435], length 240
+22:52:22.020122 IP 146.190.240.133.22 > 198.211.111.194.3661: Flags [P.], 
+seq 1040048:1040288, ack 1, win 502, options [nop,nop,TS val 1816203289 
+ecr 4134261435], length 240
+22:52:22.020438 IP 198.211.111.194.3661 > 146.190.240.133.22: Flags [.], 
+ack 1020624, win 155, options [nop,nop,TS val 4134261440 ecr 
+1816203268,nop,nop,sack 1 {1020560:1020624}], length 0
+22:52:22.032441 IP 198.211.111.194.3661 > 146.190.240.133.22: Flags [P.], 
+seq 1:33, ack 1020624, win 206, options [nop,nop,TS val 4134261452 ecr 
+1816203268], length 32^C
+4378 packets captured
+4382 packets received by filter
+0 packets dropped by kernel
